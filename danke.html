@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danke für deinen Kauf – 72h Team Reset</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E2C47A;
+    --dark: #1a1a1a;
+    --darker: #111111;
+    --card: #242424;
+    --white: #f5f5f5;
+    --muted: #999;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--darker); color: var(--white); font-family: 'Barlow', sans-serif; font-size: 17px; line-height: 1.7; }
+
+  .full-bleed { max-width: 100%; padding: 72px 24px; }
+  .full-bleed-inner { max-width: 640px; margin: 0 auto; text-align: center; }
+
+  h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 10vw, 5.5rem); letter-spacing: 0.05em; line-height: 1; margin-bottom: 16px; }
+  .gold { color: var(--gold); }
+
+  .gold-line { width: 60px; height: 3px; background: var(--gold); margin: 28px auto; }
+
+  .intro { font-size: 1.15rem; color: #ccc; margin-bottom: 32px; }
+
+  .info-box {
+    background: var(--card);
+    border: 1px solid #333;
+    border-left: 4px solid var(--gold);
+    padding: 28px 32px;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .info-box p { color: #ccc; margin-bottom: 12px; }
+  .info-box p:last-child { margin-bottom: 0; }
+  .info-box strong { color: var(--white); }
+
+  .closing {
+    margin-top: 48px;
+    font-size: 1.05rem;
+    color: #ccc;
+  }
+
+  .closing strong { color: var(--gold); }
+
+  footer {
+    background: #0d0d0d;
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.82rem;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 72px;
+  }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-up { opacity: 0; animation: fadeUp 0.7s ease forwards; }
+</style>
+</head>
+<body>
+
+<div class="full-bleed fade-up">
+  <div class="full-bleed-inner">
+
+    <h1>Danke,<br><span class="gold">Queen.</span></h1>
+    <div class="gold-line"></div>
+    <p class="intro">Dein Kauf war erfolgreich.<br>Du hast dir gerade das Werkzeug geholt, das dein Team in 3 Tagen verändert.</p>
+
+    <div class="info-box">
+      <p>📧 <strong>Schau in dein E-Mail-Postfach.</strong><br>
+      Du hast eine Bestätigungs-E-Mail von Digistore24 erhalten — dort findest du deinen Download-Link sowie deine Rechnung.</p>
+      <p>📁 <strong>Speichere die Rechnung direkt ab</strong> — du brauchst sie für deine Buchhaltung.</p>
+      <p>💳 <strong>Die Abbuchung erfolgt durch Digistore24.com</strong></p>
+    </div>
+
+    <p class="closing">
+      Fragen zum Kauf? Schreib mir: <br>
+      <strong><a href="mailto:hallo@susannemeier.online" style="color: var(--gold); text-decoration: none;">hallo@susannemeier.online</a></strong><br>
+      oder auf Instagram: <a href="https://www.instagram.com/_susanne.meier_" style="color: var(--gold); text-decoration: none;">@_susanne.meier_</a>
+    </p>
+
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Susanne Meier · <a href="https://www.susannemeier.online">susannemeier.online</a> · <a href="https://susannemeier.online/Impressum/">Impressum</a> · <a href="https://susannemeier.online/Disclaimer-Datenschutz/">Datenschutz & Disclaimer</a></p>
+</footer>
+
+</body>
+</html>
